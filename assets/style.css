@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#site-header {
+    background-color: hsl(0, 0%, 100%);
+    background-image: url("https://blog.geografia.deascuola.it/uploads/2023/06/fiumara-Aspromonte-1024x683.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+}
+
+#site-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tagline {
+    color: #F44A4A;
+    font-style: italic;
+}
+
+nav a {
+    color: hsl(67, 98%, 26%);
+    font-weight: bold;
+    line-height: 3;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2,
+h3 {
+    font-size: 1.75rem;
+    color: #1F3D7A;
+    text-align: left;
+}
+
+#chiSono {
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+#chiSono p:first-of-type {
+    font-size: 1.05rem;
+    font-style: italic;
+    color: #121f39;
+}
+
+.skill-list li:nth-child(odd) {
+    background-color: #e8edff;
+}
+
+.skill-list li:nth-child(even) {
+    background-color: #fffff4;
+}
+
+.skill-list li:first-child {
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+    color: #1F3D7A;
+}
+
+input, textarea {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    width: 60%;
+    background-color: #ffffff;
+    font-size: 1.05rem;
+}
+
+input:focus, textarea:focus {
+    background-color: #232323;
+}
+
+#recontact{
+    width: 3%;
+}
+
+button{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(220, 60%, 30%);
+    font-weight: bold;
+    width: 30%;
+}
+
+button:hover{
+    color: hsl(60, 100%, 75%);
+    background-color: hsl(220, 60%, 45%);
+}
+
+#site-footer{
+    background-color: #172136;
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.project:nth-of-type(odd) {
+    background-color: #fffff4;
+}
+
+.project:nth-of-type(even) {
+    background-color: #f6f6f6;
+}
